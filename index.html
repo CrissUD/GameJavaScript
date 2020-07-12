@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./resources/images/favicon.png">
+    <title>Piedra Papel Tijera</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-page">
+            <figure><img src="./resources/images/game.png" alt=""></figure>
+            <h2>JsGame</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>!! Piedra Papel o Tijeras !!</h1>
+        <div class="resultados">
+            <div class="resultados-container">
+                <div class="results-up">
+                    <div class="human-pane">
+                        <h2>Tu elección</h2>
+                        <figure><img class="human-img" src="./resources/images/question.png" alt=""></figure>
+                    </div>
+                    <div class="vs-pane">
+                        <h1>Vs</h1>
+                    </div>
+                    <div class="machine-pane">
+                        <h2>Maquina</h2>
+                        <figure><img class="machine-img" src="./resources/images/question.png" alt=""></figure>
+                    </div>
+                </div>
+                <div class="results-down">
+                    <h2 class="result">Resultado</h2>
+                </div>
+            </div>
+        </div>
+        <div class="down-panel">
+            <h2>Selecciona tu jugada !!</h2>
+            <div class="eleccion">
+                <button class="stone" onclick="play(1)">
+                    <figure><img src="https://img.icons8.com/color/144/000000/angry-fist.png"/></figure>
+                </button>
+                <button class="paper" onclick="play(2)">
+                    <figure><img src="https://img.icons8.com/color/144/000000/so-so.png"/></figure>
+                </button>
+                <button class="scissors" onclick="play(3)">
+                    <figure><img src="https://img.icons8.com/color/144/000000/hand-scissors.png"/></figure>
+                </button>
+            </div>
+            <div class="cover">
+                <button onclick="reset()">Jugar de Nuevo</button>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path 
+        fill="#369" 
+        fill-opacity="1" 
+        d="M0,128L120,149.3C240,171,480,213,720,213.3C960,213,1200,171,1320,149.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+        </path>
+    </svg>
+    <footer>
+        <p>©Derechos reservados @CissUD</p>
+    </footer>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
