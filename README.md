@@ -14,7 +14,7 @@ Dentro del curso se implementan varias características de HTML, CSS y JavaScrip
 * Uso de MediaQueries para el control Responsive de la página web en otras pantallas.
 
 # Resultado
-A continuación se muestra el resultado del juego **Piedra Papel o Tijera**, si quiere ver la pagina por usted mismo puede entrar al [siguiente link]().
+A continuación se muestra el resultado del juego **Piedra Papel o Tijera**, si quiere ver la pagina por usted mismo puede entrar al [siguiente link](https://crissud.github.io/GameJavaScript/index.html).
 
 <div align='center'>
     <img  src='https://i.imgur.com/hBtLjl7.png'>
